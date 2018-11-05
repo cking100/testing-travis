@@ -1,0 +1,24 @@
+matrix:
+  include:
+    - language: python
+      python: 
+        - 3.5
+      install: 
+        - pip install html-linter
+      script:
+        - html_lint.py *.html
+
+    - language: node_js
+      node_js:
+        - "stable"
+      before_install:
+        - npm install -g npm@latest
+      install:
+        - npm install -g jshint
+        - npm install -g stylelint
+      script:
+        - jshint ./js/*.js
+        - stylelint "css/*.css"
+
+notifications:
+  email: false
