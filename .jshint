@@ -1,0 +1,5 @@
+{
+        "predef": [ "myModule" ],
+        "undef": true,
+        "curly": true
+    }
