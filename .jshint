@@ -1,5 +1,24 @@
 {
-        "predef": [ "myModule" ],
-        "undef": true,
-        "curly": true
-    }
+  "asi": true,
+  "boss": true,
+  "curly": false,
+  "eqeqeq": false,
+  "eqnull": true,
+  "esnext": true,
+  "expr": true,
+  "forin": false,
+  "immed": false,
+  "laxbreak": true,
+  "newcap": false,
+  "noarg": true,
+  "node": true,
+  "nonew": true,
+  "plusplus": false,
+  "strict": false,
+  "undef": false,
+  "unused": false,
+  "-W018": false,
+  "-W058": false,
+  "-W008": false,
+  "-W054": false
+}
